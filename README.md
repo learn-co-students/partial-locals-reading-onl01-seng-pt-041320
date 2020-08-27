@@ -212,3 +212,4 @@ In this lab we've learned how partials help us DRY out our views and how the
 ## Resources
 
 * [RailsGuide: Partials](http://guides.rubyonrails.org/layouts_and_rendering.html#using-partials)
+change
