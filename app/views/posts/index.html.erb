@@ -1,8 +1,4 @@
-<% @posts.each do |post| %>
-<ul>
-  <li> <%= post.author.name %></li>
-  <li> <%= post.author.hometown %></li>
-</ul>
-  <%= post.title %>
-  <%= post.content %>
-<% end %>
+Information About the Post
+<%= render 'authors/author', locals: {post_author: @author} %>
+<%= @post.title %>
+<%= @post.content %>
